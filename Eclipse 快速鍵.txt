@@ -1,0 +1,404 @@
+ctrl+h 搜尋資料
+
+
+Ctrl + F11 ： 快速執行
+
+F11 ： 快速執行(Debug模式)
+
+Ctrl + L      ：直接前進到某行
+
+Ctrl + W     ：關閉視窗
+
+Ctrl + D     ： 刪除一列
+
+Ctrl + Shift + F ： 自動排版
+
+Ctrl + Shift + L  ：查看所有熱鍵
+
+Alt + Shift + R   ：針對變數進行 Refacturing (全部改名)
+
+Alt + Shift +  J   ：自動產生 Function 的註解 (但需手動編修)(加入Java doc說明)
+
+
+
+Content Assist觸發條件：
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ =.(!+-*/~,[{@#$%^&
+.abcdefghijklmnopqrstuvwxyz
+
+
+JBossAS - http://download.jboss.org/jbosstools/updates/development/mars/
+
+============================================
+--------------------------------------------
+http://design2u.me/blog/145/java-eclipse-%E7%86%B1%E9%8D%B5
+
+基本指令
+
+F3            ： 快速移動到該類別 (若在不同檔案則會自動開啟)
+
+Ctrl + PgDn ：到下一個分頁
+
+Ctrl + PgUp ：到前一個分頁
+
+Ctrl + F11 ： 快速執行程式
+
+Ctrl + D     ： 刪除一列
+
+Ctrl + 左鍵 ：直接連結到 Function
+
+Ctrl +  /      ：將選取範圍進行註解，或取消註解
+
+Ctrl + 1      ：快速指出及修正該行的錯誤
+
+Ctrl + W     ：關閉視窗
+
+Ctrl + O      ：快速尋找檔案中的類別，並快速切換
+
+Ctrl + L      ：直接前進到某行
+
+Ctrl + E      ：顯示所有編輯區的檔案，可快速切換不同 Tab
+
+CtrL + M     ：視窗最大化
+
+Alt + /         ：自動完成程式範本 ( 需進功能列 > 喜好設定 > Java 範本 設定)
+
+Alt + ↑↓      ：請所選的行往上或往下移動
+
+Alt + ← →  ：快速後退或前進到之前滑鼠停留的地方
+
+ 
+
+進階指令
+Ctrl + Shift + F ： 自動排版，根據代碼風格設定重新格式化代碼. 要先設定代碼風格
+
+                             Window > Preferences > Java > Code Style
+
+Ctrl + Shift + R ： 開啟資源 (非 Class 之檔案，例如 xml、jpg、css 等)
+
+Ctrl + Shift + O ：自動匯入類別 (當提示未 import 類別時)
+
+Ctrl + Shift + L  ：查看所有熱鍵
+
+Ctrl + Shift + L  ：按兩次的話，可以自己設計熱鍵
+
+Alt + Shift + R   ：針對變數進行 Refacturing (全部改名)
+
+Alt + Shift +  J   ：自動產生 Function 的註解 (但需手動編修)
+
+--------------------------------------------
+http://coder.aqualuna.me/2011/07/eclipse.html
+
+編輯相關
+
+Ctrl + Shift + F = 重新排版
+Ctrl + Shift + M = 加入 import （加入游標所在類別所需的 import）
+Ctrl + Shift + O = 整理 imports （掃描整個檔案，加入所需並刪除沒用的）
+Ctrl + / = 切換註解（按一次加上註解，再按一次取消註解）
+Ctrl + I = 修正縮排
+Alt + Shift + ↑ = 擴大選取
+游標或檔案定位
+
+F3 = 跳到定義
+Ctrl + E = 已開啟檔案清單
+Ctrl + O = 開啟符號清單
+Ctrl + J = 漸增式搜尋
+除錯與執行
+
+F11 = 以除錯模式啟動 (Debug)
+Ctrl + F11 = 啟動 (Run)
+F5 = 步進，深入一層 (Step Into)
+F6 = 步進，往下一行 (Step Over)
+F7 = 步進，回上一層 (Step Return)
+重構相關
+
+Alt + Shift + R = 重新命名 (Rename)
+Alt + Shift + M = 提煉函式 (Extract Method)
+Alt + Shift + L = 提煉區域變數 (Extract Local Variable)
+
+--------------------------------------------
+http://kuoshenghsu.blogspot.tw/2014/01/eclipse.html
+
+Eclipse 常用快捷鍵
+常用：
+ctrl+/ 註解
+ctrl+\ 取消註解
+ctrl+o 快速搜尋method
+ctrl+e 快速切換分頁
+ctrl+h 搜尋資料
+ctrl+k 搜尋相同資料 +shift(上一個)
+ctrl+g 工作中申明
+ctrl+. 下一個錯誤
+ctrl+1 快速修正
+ctrl+q 回到最後編輯行
+ctrl+t 查看類別結構
+ctrl+m 放大編輯視窗 
+ctrl+shift+/ 多行註解
+ctrl+shift+\ 取消多行註解
+ctrl+shift+r 搜尋檔案
+ctrl+shift+i 顯示變數資訊
+ctrl+shift+g 參照搜尋
+ctrl+shift+p 找對應括號
+ctrl+shift+l 查看其他快捷鍵
+ctrl+shift+f 格式化程式碼
+ctrl+shift+o 引入package(all)
+ctrl+shift+m 引入package
+ctrl+alt+h 查詢引用
+ctrl+alt+s svn
+alt+up or down 當行上下移
+
+
+
+其他：
+參照自 Eclipse 快捷鍵大全
+
+Ctrl+1 快速修復(最經典的快速鍵,就不用多說了)
+Ctrl+D: 刪除當前行 
+Ctrl+Alt+↓ 複製當前行到下一行(複製增加)
+Ctrl+Alt+↑ 複製當前行到上一行(複製增加)
+Alt+↓ 當前行和下面一行交互位置(特別實用,可以省去先剪切,再粘貼了)
+Alt+↑ 當前行和上面一行交互位置(同上)
+Alt+← 前一個編輯的頁面
+Alt+→ 下一個編輯的頁面(當然是針對上面那條來說了)
+Alt+Enter 顯示當前選擇資源(工程,or 檔 or檔)的屬性
+Shift+Enter 在當前行的下一行插入空行(這時滑鼠可以在當前行的任一位置,不一定是最後)
+Shift+Ctrl+Enter 在當前行插入空行(原理同上條)
+Ctrl+Q 定位到最後編輯的地方
+Ctrl+L 定位在某行 (對於程式超過100的人就有福音了)
+Ctrl+M 最大化當前的Edit或View (再按則反之)
+Ctrl+/ 注釋當前行,再按則取消注釋
+Ctrl+O 快速顯示 OutLine
+Ctrl+T 快速顯示當前類的繼承結構
+Ctrl+W 關閉當前Editer
+Ctrl+K 參照選中的Word快速定位到下一個
+Ctrl+E 快速顯示當前Editer的下拉清單(如果當前頁面沒有顯示的用黑體表示)
+Ctrl+/(小鍵盤) 折疊當前類中的所有代碼
+Ctrl+×(小鍵盤) 展開當前類中的所有代碼
+Ctrl+Space 代碼助手完成一些代碼的插入(但一般和輸入法有衝突,可以修改輸入法的熱鍵,也可以暫用Alt+/來代替)
+Ctrl+Shift+E 顯示管理當前打開的所有的View的管理器(可以選擇關閉,啟動等操作)
+Ctrl+J 正向增量查找(按下Ctrl+J後,你所輸入的每個字母編輯器都提供快速匹配定位到某個單詞,如果沒有,則在stutes line中顯示沒有找到了,查一個單詞時,特別實用,這個功能Idea兩年前就有了)
+Ctrl+Shift+J 反向增量查找(和上條相同,只不過是從後往前查)
+Ctrl+Shift+F4 關閉所有打開的Editer
+Ctrl+Shift+X 把當前選中的文本全部變味小寫
+Ctrl+Shift+Y 把當前選中的文本全部變為小寫
+Ctrl+Shift+F 格式化當前代碼
+Ctrl+Shift+P 定位到對於的匹配符(譬如{}) (從前面定位後面時,游標要在匹配符裡面,後面到前面,則反之)
+
+下面的快速鍵是重構裡面常用的,本人就自己喜歡且常用的整理一下(注:一般重構的快速鍵都是Alt+Shift開頭的了)
+Alt+Shift+R 重命名 (是我自己最愛用的一個了,尤其是變數和類的Rename,比手工方法能節省很多勞動力)
+Alt+Shift+M 抽取方法 (這是重構裡面最常用的方法之一了,尤其是對一大堆泥團代碼有用)
+Alt+Shift+C 修改函數結構(比較實用,有N個函式呼叫了這個方法,修改一次搞定)
+Alt+Shift+L 抽取本地變數( 可以直接把一些魔法數位和字串抽取成一個變數,尤其是多處調用的時候)
+Alt+Shift+F 把Class中的local變數變為field變數 (比較實用的功能)
+Alt+Shift+I 合併變數(可能這樣說有點不妥Inline)
+Alt+Shift+V 移動函數和變數(不怎麼常用)
+Alt+Shift+Z 重構的後悔藥(Undo)
+
+編輯
+作用域 功能 快速鍵 
+全域 查找並替換 Ctrl+F 
+文字編輯器 查找上一個 Ctrl+Shift+K 
+文字編輯器 查找下一個 Ctrl+K 
+全域 撤銷 Ctrl+Z 
+全域 複製 Ctrl+C 
+全域 恢復上一個選擇 Alt+Shift+↓ 
+全域 剪切 Ctrl+X 
+全域 快速修正 Ctrl1+1 
+全域 內容輔助 Alt+/ 
+全域 全部選中 Ctrl+A 
+全域 刪除 Delete 
+全域 上下文資訊 Alt+？
+Alt+Shift+?
+Ctrl+Shift+Space 
+Java編輯器 顯示工具提示描述 F2 
+Java編輯器 選擇封裝元素 Alt+Shift+↑ 
+Java編輯器 選擇上一個元素 Alt+Shift+← 
+Java編輯器 選擇下一個元素 Alt+Shift+→ 
+文字編輯器 增量查找 Ctrl+J 
+文字編輯器 增量逆向查找 Ctrl+Shift+J 
+全域 粘貼 Ctrl+V 
+全域 重做 Ctrl+Y 
+
+查看
+作用域 功能 快速鍵 
+全域 放大 Ctrl+= 
+全域 縮小 Ctrl+- 
+
+窗口
+作用域 功能 快速鍵 
+全域 啟動編輯器 F12 
+全域 切換編輯器 Ctrl+Shift+W 
+全域 上一個編輯器 Ctrl+Shift+F6 
+全域 上一個視圖 Ctrl+Shift+F7 
+全域 上一個透視圖 Ctrl+Shift+F8 
+全域 下一個編輯器 Ctrl+F6 
+全域 下一個視圖 Ctrl+F7 
+全域 下一個透視圖 Ctrl+F8 
+文字編輯器 顯示尺規上下文功能表 Ctrl+W 
+全域 顯示視圖功能表 Ctrl+F10 
+全域 顯示系統功能表 Alt+- 
+
+導航
+作用域 功能 快速鍵 
+Java編輯器 打開結構 Ctrl+F3 
+全域 打開類型 Ctrl+Shift+T 
+全域 打開類型層次結構 F4 
+全域 打開聲明 F3 
+全域 打開外部javadoc Shift+F2 
+全域 打開資源 Ctrl+Shift+R 
+全域 後退歷史記錄 Alt+← 
+全域 前進歷史記錄 Alt+→ 
+全域 上一個 Ctrl+, 
+全域 下一個 Ctrl+. 
+Java編輯器 顯示大綱 Ctrl+O 
+全域 在層次結構中打開類型 Ctrl+Shift+H 
+全域 轉至匹配的括弧 Ctrl+Shift+P 
+全域 轉至上一個編輯位置 Ctrl+Q 
+Java編輯器 轉至上一個成員 Ctrl+Shift+↑ 
+Java編輯器 轉至下一個成員 Ctrl+Shift+↓ 
+文字編輯器 轉至行 Ctrl+L 
+
+搜索
+作用域 功能 快速鍵 
+全域 出現在檔中 Ctrl+Shift+U 
+全域 打開搜索對話方塊 Ctrl+H 
+全域 工作區中的聲明 Ctrl+G 
+全域 工作區中的引用 Ctrl+Shift+G 
+
+文本編輯
+作用域 功能 快速鍵 
+文字編輯器 改寫切換 Insert 
+文字編輯器 上滾行 Ctrl+↑ 
+文字編輯器 下滾行 Ctrl+↓ 
+
+文件
+作用域 功能 快速鍵 
+全域 保存 Ctrl+X 
+Ctrl+S 
+全域 列印 Ctrl+P 
+全域 關閉 Ctrl+F4 
+全域 全部保存 Ctrl+Shift+S 
+全域 全部關閉 Ctrl+Shift+F4 
+全域 屬性 Alt+Enter 
+全域 新建 Ctrl+N 
+
+項目
+作用域 功能 快速鍵 
+全域 全部構建 Ctrl+B 
+
+原始程式碼
+作用域 功能 快速鍵 
+Java編輯器 格式化 Ctrl+Shift+F 
+Java編輯器 取消注釋 Ctrl+\ 
+Java編輯器 注釋 Ctrl+/ 
+Java編輯器 添加導入 Ctrl+Shift+M 
+Java編輯器 組織導入 Ctrl+Shift+O 
+Java編輯器 使用try/catch塊來包圍 未設置，太常用了，所以在這裡列出,建議自己設置。
+也可以使用Ctrl+1自動修正。 
+
+運行
+作用域 功能 快速鍵 
+全域 單步返回 F7 
+全域 單步跳過 F6 
+全域 單步跳入 F5 
+全域 單步跳入選擇 Ctrl+F5 
+全域 調試上次啟動 F11 
+全域 繼續 F8 
+全域 使用篩檢程式單步執行 Shift+F5 
+全域 添加/去除中斷點 Ctrl+Shift+B 
+全域 顯示 Ctrl+D 
+全域 運行上次啟動 Ctrl+F11 
+全域 運行至行 Ctrl+R 
+全域 執行 Ctrl+U 
+
+重構
+作用域 功能 快速鍵 
+全域 撤銷重構 Alt+Shift+Z 
+全域 抽取方法 Alt+Shift+M 
+全域 抽取區域變數 Alt+Shift+L 
+全域 內聯 Alt+Shift+I 
+全域 移動 Alt+Shift+V 
+全域 重命名 Alt+Shift+R 
+全域 重做 Alt+Shift+Y
+
+像 VS 系列一樣的 Content Assist
+預設是 " . " 或是自己使用 ALT+ ? 才會出現
+要修改設定：
+Window -> Preferences -> Java/Editor/Content Assist
+在「Auto Activation triggers for java」 從 . 改為
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =.(!+-*/~,[{@#$%^&
+ 如此一來就像VS 一樣打一個字就有囉 
+
+--------------------------------------------
+http://cooking-java.blogspot.tw/2012/01/eclipse-hotkey.html
+
+Eclipse hotkey (熱鍵、快捷鍵)
+
+ctrl + / 註解 (取消註解)
+
+ctrl + shift + O 自動匯入所欠缺的類別
+
+alt + ← 移至上一次游標所在位置
+
+alt + → 移至下一次游標所在位置
+
+ctrl + shift + P 移至匹配的括號
+
+ctrl + Q 移至上一次編輯的位置
+
+ctrl + shift + L 列出所有快速鍵
+
+alt + / 程式碼輔助
+
+ctrl + D 刪除單一行
+
+ctrl + shift + F 程式碼自動排版
+
+ctrl+ L 移至指定行數
+
+ctrl+shift+Y 小寫字母
+
+ctrl+shift+X 大寫字母
+
+ctrl+alt+/ 自動完成
+
+ctrl+3 搜尋在分頁中的檔案
+
+ctrl+shift+U 
+
+alt+shift+J 加入Java doc說明
+
+ctrl+* Expand All
+
+ctrl+shift+T search
+
+ctrl+shift+R Open Resource
+
+ctrl+F6 上次使用的檔案
+
+ctrl+alt+H 顯示繼承架構
+
+ctrl+shift+G references in workspace
+
+ctrl+F11 快速執行
+
+F11 快速執行(Debug模式)
+
+ctrl+K 快速搜尋選取的字
+
+ctrl+1 自動修復
+
+============================================
+The version number shown describes the version of the JRE the class file is compatible with.
+The reported major numbers are:
+
+J2SE 8 = 52,
+J2SE 7 = 51,
+J2SE 6.0 = 50,
+J2SE 5.0 = 49,
+JDK 1.4 = 48,
+JDK 1.3 = 47,
+JDK 1.2 = 46,
+JDK 1.1 = 45
+
+============================================
+============================================
